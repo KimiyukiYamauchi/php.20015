@@ -16,6 +16,15 @@
 1. apache再起動  
 sudo service apache2 restart
 
+## MDB2(pear)のインストール
+
+- pearのインストール  
+$ sudo aptitude install php-pear
+- 本体  
+$ sudo pear install MDB2
+- ドライバ(MySQL)  
+$ sudo pear install MDB2\_Driver_mysql
+
 ## 関連リンク
 
 - <a href="http://www.oreilly.co.jp/books/9784873115801/" target="_blank">初めてのPHP5</a>
