@@ -22,7 +22,7 @@ if ('6 pack' < '55 card stud') {
 }
 
 // These values are compared using numeric order
-if ('6 pack' < '55') {
+if ('6 pack' < 55) {
     print 'The string "6 pack" is less than the number 55.';
 } else {
     print 'The string "6 pack" is not less than the number 55.';
