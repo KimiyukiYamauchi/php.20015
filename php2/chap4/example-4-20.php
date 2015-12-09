@@ -1,3 +1,6 @@
+<?php
 $dimsum = array('Chicken Bun','Stuffed Duck Web','Turnip Cake');
-$menu = implode(', ', $dimsum);
+print_r($dimsum);
+print '<br>';
+$menu = implode('', $dimsum);
 print $menu;

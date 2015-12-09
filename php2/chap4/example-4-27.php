@@ -1,3 +1,4 @@
+<?php
 $meals = array('breakfast' => array('Walnut Bun','Coffee'),
                'lunch'     => array('Cashew Nuts', 'White Mushrooms'),
                'snack'     => array('Dried Mulberries','Salted Sesame Crab'));
@@ -10,3 +11,8 @@ $flavors = array('Japanese' => array('hot' => 'wasabi',
                                      'salty' => 'soy sauce'),
                  'Chinese'  => array('hot' => 'mustard',
                                      'pepper-salty' => 'prickly ash'));
+print_r($meals);
+print '<br>';
+print_r($lunches);
+print '<br>';
+print_r($flavors);
