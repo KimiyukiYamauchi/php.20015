@@ -25,6 +25,7 @@ for ($minute = 0; $minute < 60; $minute+=5) {
 }
 
 if (array_key_exists('_submit_check',$_POST)) {
+	var_dump($_POST);
     // If validate_form() returns errors, pass them to show_form()
     if ($form_errors = validate_form()) {
         show_form($form_errors);
